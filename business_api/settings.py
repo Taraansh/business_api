@@ -74,23 +74,27 @@ WSGI_APPLICATION = 'business_api.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
 DATABASES = {
    'default': {
        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'business',
-       'USER': 'postgres',
-       'PASSWORD': 'taraansh.1109',
-       'HOST': 'localhost',
+       'NAME': 'gobacbzp',
+       'USER': 'gobacbzp',
+       'PASSWORD': 'xQ1C18KXU9Ws2E1Fhbots5mJ9zgLXnfe',
+       'HOST': 'babar.db.elephantsql.com',
        'PORT': '5432',
    }
 }
+
+# DATABASES = {
+#    'default': {
+#        'ENGINE': 'django.db.backends.postgresql',
+#        'NAME': 'business',
+#        'USER': 'postgres',
+#        'PASSWORD': 'taraansh.1109',
+#        'HOST': 'localhost',
+#        'PORT': '5432',
+#    }
+#}
 
 
 # Password validation
